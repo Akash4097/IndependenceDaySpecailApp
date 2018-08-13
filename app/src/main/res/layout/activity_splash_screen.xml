@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_tri_color"
+    tools:context=".SplashScreenActivity">
+
+
+    <TextView
+        android:id="@+id/wishHappy_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/happy_text_view_margin_top"
+        android:text="@string/happy_text_view_text"
+        android:textColor="@color/orange"
+        android:textSize="@dimen/text_view_text_size" />
+
+
+    <TextView
+        android:id="@+id/wishIndependence_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wishHappy_text_view"
+        android:layout_centerHorizontal="true"
+        android:text="@string/independence_text_view_text"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_view_text_size" />
+
+
+    <TextView
+        android:id="@+id/wishDay_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/wishIndependence_text_view"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/wishDay_text_view_margin_top"
+        android:text="@string/day_text_view_text"
+        android:textColor="@color/green"
+        android:textSize="@dimen/text_view_text_size" />
+
+
+</RelativeLayout>

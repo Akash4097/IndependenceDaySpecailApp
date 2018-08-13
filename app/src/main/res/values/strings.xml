@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">IndependenceDayApp</string>
+    <string name="happy_text_view_text">स्वतंत्रता दिवस </string>
+    <string name="independence_text_view_text">की</string>
+    <string name="day_text_view_text">हार्दिक शुभकामनाएं</string>
+    <string name="quote1">\"आज़ादी की कभी शाम न होने देंगे,\n शहीदो की क़ुरबानी बदनाम न होने देंगे,\n बची है जो एक बूँद भी लहू की,\n तब तक भारत माँ का अंचल नीलम न होने देंगे."</string>
+    <string name="quote2">\"दे सलामी इस तिरंगे को \n जिस से तेरी शान हैं, \n सर हमेशा ऊँचा रखना इसका \n जब तक दिल में जान हैं..!!\"</string>
+    <string name="quote3">\"सारे जहाँ से अच्छा हिन्दोस्तां हमारा,हम बुलबुले हैं इसकी ये गुलसिता हमारा\"</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string translatable="false" name="quote_text">quote</string>
+</resources>

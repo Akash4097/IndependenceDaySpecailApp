@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="happy_text_view_margin_top">170dp</dimen>
+    <dimen name="text_view_text_size">32sp</dimen>
+    <dimen name="wishDay_text_view_margin_top">15dp</dimen>
+    <dimen name="quote_text_view_text_size">20sp</dimen>
+    <dimen name="gif_image_view_margin_top">8dp</dimen>
+    <dimen name="view_pager_height">180dp</dimen>
+    <dimen name="view_pager_margin">8dp</dimen>
+</resources>
