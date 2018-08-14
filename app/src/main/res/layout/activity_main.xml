@@ -22,9 +22,9 @@
         android:layout_width="match_parent"
         android:layout_height="@dimen/view_pager_height"
         android:layout_margin="@dimen/view_pager_margin"
-        app:layout_constraintTop_toBottomOf="@id/gifImage"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/gifImage" />
+        app:layout_constraintStart_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/gifImage"/>
 
 </android.support.constraint.ConstraintLayout>

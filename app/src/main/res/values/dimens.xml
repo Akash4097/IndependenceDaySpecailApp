@@ -5,6 +5,6 @@
     <dimen name="wishDay_text_view_margin_top">15dp</dimen>
     <dimen name="quote_text_view_text_size">20sp</dimen>
     <dimen name="gif_image_view_margin_top">8dp</dimen>
-    <dimen name="view_pager_height">180dp</dimen>
+    <dimen name="view_pager_height">280dp</dimen>
     <dimen name="view_pager_margin">8dp</dimen>
 </resources>

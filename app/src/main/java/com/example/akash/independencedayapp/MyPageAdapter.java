@@ -19,16 +19,20 @@ class MyPageAdapter extends FragmentPagerAdapter {
 
         switch (position) {
             case 0:
-                return QuotesFragment.newInstance(context,context.getResources().getString(R.string.quote1));
+                return QuotesFragment.newInstance(context, context.getResources().getString(R.string.quote1));
             case 1:
-                return QuotesFragment.newInstance(context,context.getResources().getString(R.string.quote2));
+                return QuotesFragment.newInstance(context, context.getResources().getString(R.string.quote2));
+            case 2:
+                return QuotesFragment.newInstance(context, context.getResources().getString(R.string.quote3));
+            case 3:
+                return QuotesFragment.newInstance(context, context.getResources().getString(R.string.quote4));
             default:
-                return QuotesFragment.newInstance(context,context.getResources().getString(R.string.quote3));
+                return QuotesFragment.newInstance(context, context.getResources().getString(R.string.quote5));
         }
     }
 
     @Override
     public int getCount() {
-        return 3;
+        return 5;
     }
 }
